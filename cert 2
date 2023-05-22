@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T13:09:51.463Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="1EYbIJP31zO3uunzRa6R" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T13:14:26.128Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="Am3RadEm8Xz05mMHBtFH" version="21.3.0" type="github">
   <diagram name="Page-1" id="0cJ23hUqUcQoDeL1NlxO">
     <mxGraphModel dx="766" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
         <mxCell id="MT6ArWoGf5dPcmZiEdTS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="MT6ArWoGf5dPcmZiEdTS-14" target="MT6ArWoGf5dPcmZiEdTS-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MT6ArWoGf5dPcmZiEdTS-14" value="Amazon EC2" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ec2;points=[[0.05,0,0,0,-3]];" vertex="1" parent="1">
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-14" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ec2;points=[[0.05,0,0,0,-3]];" vertex="1" parent="1">
           <mxGeometry x="503" y="280" width="60" height="90" as="geometry" />
         </mxCell>
         <mxCell id="MT6ArWoGf5dPcmZiEdTS-16" value="Generate new certificates&lt;br&gt;(Rotate Certificates)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -50,7 +50,7 @@
         </mxCell>
         <mxCell id="MT6ArWoGf5dPcmZiEdTS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.931;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;strokeColor=#000000;" edge="1" parent="1" target="MT6ArWoGf5dPcmZiEdTS-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="320" as="sourcePoint" />
+            <mxPoint x="490" y="320" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="505" y="320" />
               <mxPoint x="405" y="320" />
@@ -59,10 +59,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MT6ArWoGf5dPcmZiEdTS-19" value="Sync new certificates with &lt;br&gt;&lt;div&gt;Dynamo DB&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;perimeterSpacing=10;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="425" y="270" width="70" height="70" as="geometry" />
+          <mxGeometry x="400" y="249" width="95" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MT6ArWoGf5dPcmZiEdTS-21" value="Grab required Certificates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-25" value="Backend&lt;br&gt;Servers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-27" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-29" value="EC2 with AWS CLI Scripts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="488" y="340" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
