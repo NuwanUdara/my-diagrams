@@ -1,15 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T13:08:15.215Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="wuOzpQl4B1cZyNJ3ehFo" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T13:09:51.463Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="1EYbIJP31zO3uunzRa6R" version="21.3.0" type="github">
   <diagram name="Page-1" id="0cJ23hUqUcQoDeL1NlxO">
     <mxGraphModel dx="766" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MT6ArWoGf5dPcmZiEdTS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.05;entryY=0;entryDx=0;entryDy=-3;entryPerimeter=0;strokeColor=#33FF33;strokeWidth=3;" edge="1" parent="1" source="MT6ArWoGf5dPcmZiEdTS-3" target="MT6ArWoGf5dPcmZiEdTS-14">
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.05;entryY=0;entryDx=0;entryDy=-3;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="MT6ArWoGf5dPcmZiEdTS-3" target="MT6ArWoGf5dPcmZiEdTS-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="300" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="464" y="250" />
-              <mxPoint x="506" y="250" />
+              <mxPoint x="510" y="219" />
+              <mxPoint x="510" y="259" />
+              <mxPoint x="506" y="259" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -39,7 +39,7 @@
         <mxCell id="MT6ArWoGf5dPcmZiEdTS-12" value="Secured communication Link" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="160" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MT6ArWoGf5dPcmZiEdTS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="MT6ArWoGf5dPcmZiEdTS-14" target="MT6ArWoGf5dPcmZiEdTS-3">
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="MT6ArWoGf5dPcmZiEdTS-14" target="MT6ArWoGf5dPcmZiEdTS-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MT6ArWoGf5dPcmZiEdTS-14" value="Amazon EC2" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ec2;points=[[0.05,0,0,0,-3]];" vertex="1" parent="1">
@@ -48,7 +48,7 @@
         <mxCell id="MT6ArWoGf5dPcmZiEdTS-16" value="Generate new certificates&lt;br&gt;(Rotate Certificates)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="210" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MT6ArWoGf5dPcmZiEdTS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.931;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;strokeColor=#33FF33;" edge="1" parent="1" target="MT6ArWoGf5dPcmZiEdTS-6">
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.931;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;strokeColor=#000000;" edge="1" parent="1" target="MT6ArWoGf5dPcmZiEdTS-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="320" as="sourcePoint" />
             <Array as="points">
