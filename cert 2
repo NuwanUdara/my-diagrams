@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T12:48:03.250Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" version="21.3.0" etag="gqe_6yDF_yXKsxSJ_gEM" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T13:08:15.215Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="wuOzpQl4B1cZyNJ3ehFo" version="21.3.0" type="github">
   <diagram name="Page-1" id="0cJ23hUqUcQoDeL1NlxO">
-    <mxGraphModel>
+    <mxGraphModel dx="766" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.05;entryY=0;entryDx=0;entryDy=-3;entryPerimeter=0;strokeColor=#33FF33;strokeWidth=3;" edge="1" parent="1" source="MT6ArWoGf5dPcmZiEdTS-3" target="MT6ArWoGf5dPcmZiEdTS-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="464" y="250" />
+              <mxPoint x="506" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-3" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="425" y="160" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.78;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" target="MT6ArWoGf5dPcmZiEdTS-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="250" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="230" y="343" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-5" value="Amazon EC2" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ec2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="149" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="318" y="280" width="72" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-11" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MT6ArWoGf5dPcmZiEdTS-5" target="MT6ArWoGf5dPcmZiEdTS-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="292" y="227" as="sourcePoint" />
+            <mxPoint x="392" y="127" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-12" value="Secured communication Link" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="MT6ArWoGf5dPcmZiEdTS-14" target="MT6ArWoGf5dPcmZiEdTS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-14" value="Amazon EC2" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ec2;points=[[0.05,0,0,0,-3]];" vertex="1" parent="1">
+          <mxGeometry x="503" y="280" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-16" value="Generate new certificates&lt;br&gt;(Rotate Certificates)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.931;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;strokeColor=#33FF33;" edge="1" parent="1" target="MT6ArWoGf5dPcmZiEdTS-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="505" y="320" />
+              <mxPoint x="405" y="320" />
+              <mxPoint x="405" y="331" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-19" value="Sync new certificates with &lt;br&gt;&lt;div&gt;Dynamo DB&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;perimeterSpacing=10;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="425" y="270" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MT6ArWoGf5dPcmZiEdTS-21" value="Grab required Certificates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
