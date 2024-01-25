@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T05:27:08.187Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zxGJpM87r7GjZ8JVKDbf" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T06:41:11.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yPXSw_M5dzcXkMU6CGSU" version="23.0.1" type="github">
   <diagram name="Page-1" id="FYWUt24ZpTdFW-gtobVG">
-    <mxGraphModel dx="2143" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1211" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="IX6t6DD36pY5l--hHVE1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IX6t6DD36pY5l--hHVE1-4" target="IX6t6DD36pY5l--hHVE1-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IX6t6DD36pY5l--hHVE1-4" value="Initialize Board/ &lt;br&gt;OLED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IX6t6DD36pY5l--hHVE1-4" value="Initialize Board/ &lt;br&gt;OLED/ Clock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="272" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IX6t6DD36pY5l--hHVE1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IX6t6DD36pY5l--hHVE1-6" target="IX6t6DD36pY5l--hHVE1-8">
@@ -95,7 +95,7 @@
         <mxCell id="IX6t6DD36pY5l--hHVE1-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IX6t6DD36pY5l--hHVE1-62" target="IX6t6DD36pY5l--hHVE1-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IX6t6DD36pY5l--hHVE1-62" value="Start listen mode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IX6t6DD36pY5l--hHVE1-62" value="Start listen mode&lt;br&gt;&amp;amp;&lt;br&gt;Sync the clock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="875" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IX6t6DD36pY5l--hHVE1-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IX6t6DD36pY5l--hHVE1-67" target="IX6t6DD36pY5l--hHVE1-71">
