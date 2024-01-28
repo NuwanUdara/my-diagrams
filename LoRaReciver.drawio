@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-28T14:50:25.327Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="auO71wFe6fGv3ftBCg7a" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-28T14:56:22.958Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="poU9p3EJnVpPhRipbvCb" version="23.0.2" type="github">
   <diagram name="Page-1" id="FYWUt24ZpTdFW-gtobVG">
-    <mxGraphModel dx="844" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="663" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,25 +8,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IX6t6DD36pY5l--hHVE1-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="365" y="162" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="44" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IX6t6DD36pY5l--hHVE1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IX6t6DD36pY5l--hHVE1-4" target="IX6t6DD36pY5l--hHVE1-6" edge="1">
+        <mxCell id="0H7-YZ-VMUyI1cPCvzWG-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IX6t6DD36pY5l--hHVE1-4" target="0H7-YZ-VMUyI1cPCvzWG-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IX6t6DD36pY5l--hHVE1-4" value="Initialize Board/ &lt;br&gt;OLED/ Clock" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="365" y="272" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IX6t6DD36pY5l--hHVE1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IX6t6DD36pY5l--hHVE1-6" target="IX6t6DD36pY5l--hHVE1-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IX6t6DD36pY5l--hHVE1-6" value="Define Parameters for LoRa along with&lt;br&gt;Max and Min Spreading Factors&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="365" y="372" width="120" height="60" as="geometry" />
+        <mxCell id="IX6t6DD36pY5l--hHVE1-6" value="Define Parameters for LoRa" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="365" y="373" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IX6t6DD36pY5l--hHVE1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IX6t6DD36pY5l--hHVE1-8" target="IX6t6DD36pY5l--hHVE1-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IX6t6DD36pY5l--hHVE1-8" value="Try To Initialize Radio with LoRa&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="365" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="482" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IX6t6DD36pY5l--hHVE1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IX6t6DD36pY5l--hHVE1-13" target="IX6t6DD36pY5l--hHVE1-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -213,6 +213,15 @@
         </mxCell>
         <mxCell id="0H7-YZ-VMUyI1cPCvzWG-17" value="Log the error" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="353" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0H7-YZ-VMUyI1cPCvzWG-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0H7-YZ-VMUyI1cPCvzWG-22" target="IX6t6DD36pY5l--hHVE1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0H7-YZ-VMUyI1cPCvzWG-22" value="Connect to WiFi with given SSID and Password" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="257" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0H7-YZ-VMUyI1cPCvzWG-25" value="&lt;h1&gt;State types&lt;/h1&gt;&lt;p&gt;We will calculate&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;RX number of packets&lt;/li&gt;&lt;li&gt;Max,Min, AVG RSSI&lt;/li&gt;&lt;li&gt;Max,Min, AVG total Time&lt;/li&gt;&lt;li&gt;AVG SNR&lt;/li&gt;&lt;li&gt;Freq. Error&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="825" y="960" width="190" height="156" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
