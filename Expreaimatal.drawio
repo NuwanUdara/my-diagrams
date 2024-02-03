@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-03T16:08:36.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="9eES_Dof0WahoWZFZYlZ" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-03T16:10:05.360Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="WrkizmijDV1l3TUXecVf" version="23.0.2" type="github">
   <diagram name="Page-1" id="EuA_YrtEMQ8OeRDGVzNk">
-    <mxGraphModel dx="3096" dy="2796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1741" dy="2054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,6 +123,15 @@
         </mxCell>
         <mxCell id="NCyLiusnZEwWGSVtfZov-36" value="End Devices" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Helvetica;fontColor=#0000FF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1074" y="187" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NCyLiusnZEwWGSVtfZov-44" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.forward;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="640" width="70" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="NCyLiusnZEwWGSVtfZov-45" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.forward;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="640" width="70" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NCyLiusnZEwWGSVtfZov-46" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=-0.071;entryY=-0.059;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NCyLiusnZEwWGSVtfZov-11" target="NCyLiusnZEwWGSVtfZov-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
