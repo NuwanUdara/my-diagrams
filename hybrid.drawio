@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" modified="2024-04-16T17:31:27.991Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="MOLAnetBwi1W_FVGPpbF" version="24.2.5" type="github">
+  <diagram name="Page-1" id="AWSqJMXoxMdmLD9dW5Tx">
+    <mxGraphModel dx="1708" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-2" target="4wCSLfVInh1E1HbaiNqu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-2" value="Start The&lt;br&gt;TX" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="100" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-5" target="4wCSLfVInh1E1HbaiNqu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-5" value="Take public Key &lt;br&gt;path" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-6" target="4wCSLfVInh1E1HbaiNqu-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-10" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4wCSLfVInh1E1HbaiNqu-9">
+          <mxGeometry x="-0.0462" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-6" target="4wCSLfVInh1E1HbaiNqu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-22" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4wCSLfVInh1E1HbaiNqu-21">
+          <mxGeometry x="-0.05" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-6" value="&lt;div&gt;Check if&amp;nbsp;&lt;/div&gt;&lt;div&gt;the file&amp;nbsp;&lt;/div&gt;&lt;div&gt;exists&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-8" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="570" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-11" target="4wCSLfVInh1E1HbaiNqu-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-11" value="Take message&lt;br&gt;to Encrypt" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-14" target="4wCSLfVInh1E1HbaiNqu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-14" value="Show error&lt;br&gt;message&lt;br&gt;for file not found" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-16" target="4wCSLfVInh1E1HbaiNqu-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-16" value="Initiate a Connection to a socket&lt;br&gt;at 5000 on host" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-17" target="4wCSLfVInh1E1HbaiNqu-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-17" value="Generate A Symmetric key and&lt;br&gt;initiate a Fernet Object With the key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-18" target="4wCSLfVInh1E1HbaiNqu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-26" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4wCSLfVInh1E1HbaiNqu-25">
+          <mxGeometry x="-0.2" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-18" value="Is the&lt;br&gt;&lt;div&gt;Msg in&amp;nbsp;&lt;/div&gt;&lt;div&gt;lowercase&lt;/div&gt;&lt;div&gt;&amp;nbsp;bye&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="580" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-18" target="4wCSLfVInh1E1HbaiNqu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-20" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4wCSLfVInh1E1HbaiNqu-19">
+          <mxGeometry x="-0.6328" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-27" target="4wCSLfVInh1E1HbaiNqu-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-27" value="Encrypt the Message&lt;br&gt;content using&lt;br&gt;Fernet object&lt;br&gt;and Base64 encode it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="850" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-29" target="4wCSLfVInh1E1HbaiNqu-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-29" value="Read the Public key and Create a PKCS1_OAEP object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-30" target="4wCSLfVInh1E1HbaiNqu-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-30" value="&lt;div&gt;Encrypt the Fernet Key using the public key and the PKCS1_OAEP&lt;/div&gt;&lt;div&gt;And Base64 encode it&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="845" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-31" target="4wCSLfVInh1E1HbaiNqu-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-31" value="Concatenate the Encrypted and encoded Key and Cipher with &#39;|&#39; as&lt;br&gt;Separator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="740" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4wCSLfVInh1E1HbaiNqu-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="470" />
+              <mxPoint x="160" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-35" value="Send to the socket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4wCSLfVInh1E1HbaiNqu-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#B5739D;gradientColor=none;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="80" y="690" width="770" height="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
