@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T18:11:24.189Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="yNxNJaRuxBZRamvGjq8r" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-16T18:13:53.763Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="lMdbakL4P1NQ8QftgWpC" version="24.2.5" type="github">
   <diagram name="Page-1" id="AmtjGHkQkYa9CfD1JUIu">
-    <mxGraphModel dx="1640" dy="1335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2487" dy="1335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -170,6 +170,12 @@
         </mxCell>
         <mxCell id="hNDmYx2iGcgmjt5Hm5wT-45" value="Create a Fernet Object from obtained Symmetric key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hNDmYx2iGcgmjt5Hm5wT-56" value="" style="shape=card;whiteSpace=wrap;html=1;size=300;fillColor=#fff2cc;strokeColor=#d6b656;strokeOpacity=100;fillOpacity=30;arcSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="480" width="870" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="hNDmYx2iGcgmjt5Hm5wT-60" value="Decrypt&lt;br&gt;Process" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="720" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
