@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2024-04-19T07:28:48.793Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Zyxbx6r3F3E5ARXgQsr_" version="24.2.5" type="github">
+  <diagram name="Page-1" id="v4S2KKzO6r7TvPnR6DC_">
+    <mxGraphModel dx="1161" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="1" source="7Iw9vnkbZskr4MVcJifC-1" target="XhX0Te3i_u-7RjcOF_rN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Iw9vnkbZskr4MVcJifC-1" value="Recived reconfig" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="280" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="XhX0Te3i_u-7RjcOF_rN-1" target="XhX0Te3i_u-7RjcOF_rN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-1" value="Save the current parameters in Old_LoRa_parameters" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="135" y="170" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="XhX0Te3i_u-7RjcOF_rN-3" target="XhX0Te3i_u-7RjcOF_rN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-3" value="Update the LoRa paraeters to the configuration data&amp;nbsp;&lt;div&gt;received.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="XhX0Te3i_u-7RjcOF_rN-5" target="XhX0Te3i_u-7RjcOF_rN-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-5" value="Get a random time from&lt;div&gt;5000ms - 10000ms&lt;/div&gt;&lt;div&gt;And schadule a retransmission&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="125" y="380" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="XhX0Te3i_u-7RjcOF_rN-8" target="XhX0Te3i_u-7RjcOF_rN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-15" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="XhX0Te3i_u-7RjcOF_rN-14">
+          <mxGeometry x="-0.025" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="1" source="XhX0Te3i_u-7RjcOF_rN-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="650" />
+              <mxPoint x="290" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-8" value="Is the schaduled&lt;br&gt;time reached?" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="355" y="490" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="XhX0Te3i_u-7RjcOF_rN-12" target="XhX0Te3i_u-7RjcOF_rN-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-12" value="Initiate a Non-blocking packet&lt;br&gt;transmission" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="365" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XhX0Te3i_u-7RjcOF_rN-17" value="End" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;arcSize=46;" vertex="1" parent="1">
+          <mxGeometry x="365" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
