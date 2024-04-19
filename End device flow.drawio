@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T21:53:49.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="-uremuyUGs-EeVTvYBwO" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T22:05:37.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="H1j7f0Ff0RFAJOO2keNf" version="24.2.5" type="github">
   <diagram name="Page-1" id="QnrL3zc8ECIrJKWS5WpY">
-    <mxGraphModel dx="1286" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1063" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,7 +52,7 @@
           <mxGeometry x="520" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QVGyrubyLwDDq1W49fJA-33" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="960" y="120" width="170" height="280" as="geometry" />
+          <mxGeometry x="1400" y="440" width="170" height="280" as="geometry" />
         </mxCell>
         <mxCell id="QVGyrubyLwDDq1W49fJA-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QVGyrubyLwDDq1W49fJA-33">
           <mxGeometry width="170" height="280" as="geometry" />
@@ -149,6 +149,20 @@
             <mxPoint x="13" y="-21" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-51" target="QVGyrubyLwDDq1W49fJA-88">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="510" />
+              <mxPoint x="830" y="510" />
+              <mxPoint x="830" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-87" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QVGyrubyLwDDq1W49fJA-85">
+          <mxGeometry x="-0.7762" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QVGyrubyLwDDq1W49fJA-51" value="retxSch flag Enabled?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="735" width="130" height="130" as="geometry" />
         </mxCell>
@@ -158,10 +172,13 @@
         <mxCell id="QVGyrubyLwDDq1W49fJA-54" value="retxSch flag to false&lt;br&gt;Revert LoRa parameters to selected values" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="640" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-59" target="QVGyrubyLwDDq1W49fJA-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QVGyrubyLwDDq1W49fJA-59" value="Save the payload&lt;br&gt;&lt;div&gt;And&lt;/div&gt;&lt;div&gt;Status code&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="647" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QVGyrubyLwDDq1W49fJA-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-61" target="QVGyrubyLwDDq1W49fJA-4">
+        <mxCell id="QVGyrubyLwDDq1W49fJA-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-61" target="QVGyrubyLwDDq1W49fJA-88">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="850" y="280" />
@@ -170,6 +187,87 @@
         </mxCell>
         <mxCell id="QVGyrubyLwDDq1W49fJA-61" value="&lt;div&gt;Disable&lt;/div&gt;isTransmitting flag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="520" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-64" target="QVGyrubyLwDDq1W49fJA-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-68" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QVGyrubyLwDDq1W49fJA-67">
+          <mxGeometry x="-0.5934" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-64" value="Is there are no&lt;div&gt;errors in&lt;/div&gt;&lt;div&gt;reception?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="750" width="125" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.469;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-69" target="QVGyrubyLwDDq1W49fJA-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-71" value="Warning Message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QVGyrubyLwDDq1W49fJA-70">
+          <mxGeometry x="-0.0441" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-69" target="QVGyrubyLwDDq1W49fJA-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="1015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-76" value="Reconfig&lt;br&gt;Message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QVGyrubyLwDDq1W49fJA-75">
+          <mxGeometry x="0.0292" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-69" value="What is the&lt;br&gt;packet type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="960" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-72" target="QVGyrubyLwDDq1W49fJA-88">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="880" />
+              <mxPoint x="930" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-72" value="Notify and trigger the&lt;br&gt;warning" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="528" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-77" target="QVGyrubyLwDDq1W49fJA-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-77" value="Save current LoRa&lt;br&gt;parameters&lt;br&gt;in old_lora_parameters" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="985" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-78" target="QVGyrubyLwDDq1W49fJA-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1039" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-78" value="Update the LoRa parameters" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="879" y="985" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-80" value="Get a random time interval" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="979" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-82" value="Schedule a Retransmite packet,&lt;br&gt;Enable retxSch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="979" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-80" target="QVGyrubyLwDDq1W49fJA-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-88" target="QVGyrubyLwDDq1W49fJA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVGyrubyLwDDq1W49fJA-88" value="Enable&lt;div&gt;enableInterrupt flag&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
