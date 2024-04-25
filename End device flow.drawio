@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T10:50:00.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="4A9d6kO1aFDgVHgnq152" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T14:06:25.367Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="IxRd53q3kAIFnJ9GxVzr" version="24.3.0" type="github">
   <diagram name="Page-1" id="QnrL3zc8ECIrJKWS5WpY">
-    <mxGraphModel dx="1286" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1222" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="keQh2NvHmvrn8WmfqUB1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-1" target="QVGyrubyLwDDq1W49fJA-2">
+        <mxCell id="keQh2NvHmvrn8WmfqUB1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QVGyrubyLwDDq1W49fJA-1" target="QVGyrubyLwDDq1W49fJA-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QVGyrubyLwDDq1W49fJA-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontStyle=1" parent="1" vertex="1">
@@ -226,7 +226,7 @@
             <mxPoint x="43" y="98" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QVGyrubyLwDDq1W49fJA-64" value="Is there are no&lt;div&gt;errors in&lt;/div&gt;&lt;div&gt;reception?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="QVGyrubyLwDDq1W49fJA-64" value="Is there are&lt;div&gt;errors in&lt;/div&gt;&lt;div&gt;reception?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="48" y="798" width="125" height="130" as="geometry" />
         </mxCell>
         <mxCell id="QVGyrubyLwDDq1W49fJA-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.469;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1" parent="1" source="QVGyrubyLwDDq1W49fJA-69" target="QVGyrubyLwDDq1W49fJA-72" edge="1">
@@ -353,7 +353,7 @@
         <mxCell id="QVGyrubyLwDDq1W49fJA-95" value="Is the&amp;nbsp;&lt;div&gt;t&lt;span style=&quot;background-color: initial;&quot;&gt;imeout&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;reached&lt;/span&gt;&lt;div&gt;for another&lt;br&gt;health&amp;nbsp;&lt;/div&gt;&lt;div&gt;check&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ping&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="344" y="991" width="130.37" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="keQh2NvHmvrn8WmfqUB1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVGyrubyLwDDq1W49fJA-99" target="QVGyrubyLwDDq1W49fJA-102">
+        <mxCell id="keQh2NvHmvrn8WmfqUB1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QVGyrubyLwDDq1W49fJA-99" target="QVGyrubyLwDDq1W49fJA-102" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QVGyrubyLwDDq1W49fJA-99" value="Get a random time interval" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
