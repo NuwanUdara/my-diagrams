@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T14:05:49.152Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="t-8fy4BfVymjaWCV7GOf" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T17:54:21.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="O8r4njEm8cfMkxkj7WyL" version="24.3.0" type="github">
   <diagram name="Page-1" id="QnrL3zc8ECIrJKWS5WpY">
     <mxGraphModel dx="1063" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -264,7 +264,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QVGyrubyLwDDq1W49fJA-69" value="What is the&lt;br&gt;packet type" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="265.5" y="889" width="110" height="110" as="geometry" />
+          <mxGeometry x="265.5" y="888" width="110" height="112" as="geometry" />
         </mxCell>
         <mxCell id="QVGyrubyLwDDq1W49fJA-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" parent="1" source="QVGyrubyLwDDq1W49fJA-72" target="QVGyrubyLwDDq1W49fJA-88" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -562,7 +562,7 @@
         <mxCell id="nbQrimUv1-MCqe2rZsde-43" value="retxSch flag to false&lt;br&gt;Revert LoRa parameters to selected values" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1336.5" y="1753" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nbQrimUv1-MCqe2rZsde-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.023;entryY=0.587;entryDx=0;entryDy=0;fontStyle=1;entryPerimeter=0;" edge="1" parent="1" target="nbQrimUv1-MCqe2rZsde-6">
+        <mxCell id="nbQrimUv1-MCqe2rZsde-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;" edge="1" parent="1" target="nbQrimUv1-MCqe2rZsde-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1397" y="1630" as="sourcePoint" />
             <mxPoint x="1189.5" y="1390" as="targetPoint" />
@@ -612,14 +612,83 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nbQrimUv1-MCqe2rZsde-55" value="Is there are no&lt;div&gt;errors in&lt;/div&gt;&lt;div&gt;reception?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="nbQrimUv1-MCqe2rZsde-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=1;labelBackgroundColor=none;resizable=0;" edge="1" parent="1" source="nbQrimUv1-MCqe2rZsde-55" target="nbQrimUv1-MCqe2rZsde-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-74" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=1;labelBackgroundColor=none;fillColor=none;gradientColor=none;" vertex="1" connectable="0" parent="nbQrimUv1-MCqe2rZsde-62">
+          <mxGeometry x="0.4352" y="1" relative="1" as="geometry">
+            <mxPoint x="-24" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-55" value="Is there are&lt;div&gt;errors in&lt;/div&gt;&lt;div&gt;reception?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="887.5" y="1970" width="125" height="130" as="geometry" />
         </mxCell>
         <mxCell id="nbQrimUv1-MCqe2rZsde-56" value="Log&lt;br&gt;Error" style="whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="913" y="2160" width="114.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nbQrimUv1-MCqe2rZsde-60" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="nbQrimUv1-MCqe2rZsde-60" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="873" y="2100" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=1;labelBackgroundColor=none;resizable=0;" edge="1" parent="1" source="nbQrimUv1-MCqe2rZsde-61" target="nbQrimUv1-MCqe2rZsde-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="2136" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-61" value="Start a Retransmission" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#0000FF;fontStyle=1;labelBackgroundColor=none;resizable=0;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1066.5" y="2005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-63" value="Reconfig&lt;br&gt;Message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1387" y="2120" as="geometry" />
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-64" value="Health Ping" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontStyle=1" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1277" y="2200" as="geometry" />
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=1;labelBackgroundColor=none;resizable=0;" edge="1" parent="1" source="nbQrimUv1-MCqe2rZsde-65" target="nbQrimUv1-MCqe2rZsde-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=1;labelBackgroundColor=none;resizable=0;" edge="1" parent="1" source="nbQrimUv1-MCqe2rZsde-65" target="nbQrimUv1-MCqe2rZsde-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-65" value="What is the&lt;br&gt;packet type" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1226.5" y="2080" width="110" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;" edge="1" parent="1" source="nbQrimUv1-MCqe2rZsde-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="2010" />
+              <mxPoint x="1470" y="1480" />
+            </Array>
+            <mxPoint x="1130" y="1480.0000000000002" as="targetPoint" />
+            <mxPoint x="1351" y="2010" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-71" value="Notify and trigger the&lt;br&gt;warning" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1221.5" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=1;labelBackgroundColor=none;resizable=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nbQrimUv1-MCqe2rZsde-75" target="nbQrimUv1-MCqe2rZsde-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1442" y="2270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-75" value="Is the&amp;nbsp;&lt;div&gt;t&lt;span style=&quot;background-color: initial;&quot;&gt;imeout&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;reached&lt;/span&gt;&lt;div&gt;for another&lt;br&gt;health&amp;nbsp;&lt;/div&gt;&lt;div&gt;check&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ping&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1376.5" y="2140" width="130.37" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=1;labelBackgroundColor=none;resizable=0;" edge="1" parent="1" source="nbQrimUv1-MCqe2rZsde-78" target="nbQrimUv1-MCqe2rZsde-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1710" y="2270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-78" value="Get a random time interval" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1550" y="2240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nbQrimUv1-MCqe2rZsde-79" value="Schadule a&lt;br&gt;Health-check ping&lt;br&gt;Response" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2153" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
