@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T18:51:27.688Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="aPYxreA0jNVy-kEX6Ew_" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T18:51:44.858Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="qv3TNpKH1f_6AIM2t2vk" version="24.4.13" type="github">
   <diagram name="Page-1" id="2TM85c8_Qq76-kRjKyv6">
     <mxGraphModel dx="1050" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -15,7 +15,7 @@
         </mxCell>
         <mxCell id="_5YC0JwSENfSZaEadbhv-33" value="Obtain Type of ENV and the IP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_5YC0JwSENfSZaEadbhv-32">
           <mxGeometry y="5" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_5YC0JwSENfSZaEadbhv-1" value="Bastion machine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
