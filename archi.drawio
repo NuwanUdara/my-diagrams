@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T19:09:15.702Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="5ayqvRCFCKYG6lSae_Nw" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T19:25:13.323Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="74S8OwbkNoeFMsEHEUrV" version="24.4.13" type="github">
   <diagram name="Page-1" id="2TM85c8_Qq76-kRjKyv6">
     <mxGraphModel dx="875" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DpHqxrWUrxOZAoraLufI-1" value="Local machine&lt;br&gt;(will be replaced by&lt;br&gt;Pipeline)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="150" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_5YC0JwSENfSZaEadbhv-3" value="SSH or session Manager" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="270" y="510" width="60" height="30" as="geometry" />
@@ -113,19 +113,25 @@
           <mxGeometry x="687.9996774193548" y="850.0033333333333" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_5YC0JwSENfSZaEadbhv-37" value="Get variant details " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="676" y="640" width="85" height="30" as="geometry" />
+          <mxGeometry x="670" y="630" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_5YC0JwSENfSZaEadbhv-34" value="Populate this in Deployments" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="543" y="760" width="60" height="30" as="geometry" />
+          <mxGeometry x="708" y="900" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_5YC0JwSENfSZaEadbhv-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5YC0JwSENfSZaEadbhv-40" target="_5YC0JwSENfSZaEadbhv-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_5YC0JwSENfSZaEadbhv-40" value="Bastion machine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="382.19" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5YC0JwSENfSZaEadbhv-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5YC0JwSENfSZaEadbhv-42" target="_5YC0JwSENfSZaEadbhv-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_5YC0JwSENfSZaEadbhv-42" value="Clone&lt;br&gt;InfTests&lt;br&gt;Repo" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="543" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5YC0JwSENfSZaEadbhv-45" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="668" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
