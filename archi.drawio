@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T04:08:04.481Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="BhaGlB9oMUDFyy0AFMyc" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T04:20:59.561Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="MUhdWM1hJ1z8TjfonrCy" version="24.4.13" type="github">
   <diagram name="Page-1" id="2TM85c8_Qq76-kRjKyv6">
-    <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,8 +142,8 @@
         <mxCell id="Ui7EuLQBcDs2-2dc4qGi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_5YC0JwSENfSZaEadbhv-45" target="Ui7EuLQBcDs2-2dc4qGi-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t4J5OjTFXAHHgCRAhGgP-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Testing&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Tests will be carried out by testunits.&lt;/li&gt;&lt;li&gt;paramiko can be used to perform ssh tasks through Python.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="740" y="330" width="340" height="120" as="geometry" />
+        <mxCell id="t4J5OjTFXAHHgCRAhGgP-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;How the tests will be carried out&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Tests will be carried out by testunits, Will try paralleled testing .&lt;/li&gt;&lt;li&gt;paramiko can be used to perform ssh tasks through Python.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="260" width="340" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
