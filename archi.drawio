@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T05:30:14.252Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="9slQSasjySZWSGB_-z1A" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T06:26:48.496Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="PyLWLGMcylPsRfdczWqg" version="24.4.13" type="github">
   <diagram name="Page-1" id="2TM85c8_Qq76-kRjKyv6">
-    <mxGraphModel dx="2049" dy="1174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1147" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,7 +142,7 @@
         <mxCell id="Ui7EuLQBcDs2-2dc4qGi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_5YC0JwSENfSZaEadbhv-45" target="Ui7EuLQBcDs2-2dc4qGi-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t4J5OjTFXAHHgCRAhGgP-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;How the tests will be carried out&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Tests will be carried out by testunits, Suggest paralleled testings where applicable.&lt;br&gt;&lt;/li&gt;&lt;li&gt;paramiko can be used to perform ssh tasks through Python.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="t4J5OjTFXAHHgCRAhGgP-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;How the tests will be carried out&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Tests will be carried out by &lt;strike&gt;testunits&lt;/strike&gt; Pytest, Suggest paralleled testings where applicable.&lt;br&gt;&lt;/li&gt;&lt;li&gt;paramiko can be used to perform ssh tasks through Python.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="740" y="260" width="340" height="190" as="geometry" />
         </mxCell>
         <mxCell id="t4J5OjTFXAHHgCRAhGgP-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Test Types&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;SSH will be used to check HELM deployments, if low level needed Kubernetes(We can keep a json files or YAML files with lists that can import dynamically for each Environment types.).&lt;/li&gt;&lt;li&gt;&amp;nbsp;Version check can be used to perform via dpkg or apt or both. Again YAML or JSON can be used to dynamically Import test cases.&lt;/li&gt;&lt;li&gt;REST point testing.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Auth0&lt;br&gt;&lt;/li&gt;&lt;li&gt;REFDATA&lt;/li&gt;&lt;li&gt;Matching engine etc&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;Here the API testing will be performed via API-Gateways. Will use already established methods or implement end points if needed that will deployed in the environment deployment phase. &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
