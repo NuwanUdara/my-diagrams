@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T04:32:31.398Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="me1Q6hJsqQlwYNxl8icw" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T04:48:35.818Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="bB7rZHKUZqzx2qrp-iDI" version="24.4.13" type="github">
   <diagram name="Page-1" id="2TM85c8_Qq76-kRjKyv6">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -145,8 +145,8 @@
         <mxCell id="t4J5OjTFXAHHgCRAhGgP-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;How the tests will be carried out&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Tests will be carried out by testunits, Suggest paralleled testings where applicable.&lt;br&gt;&lt;/li&gt;&lt;li&gt;paramiko can be used to perform ssh tasks through Python.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="740" y="260" width="340" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="t4J5OjTFXAHHgCRAhGgP-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Test Types&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;SSH will be used to check HELM deployments, if low level needed Kubernetes(We can keep a json files or YAML files with lists that can import dynamically for each Environment types.).&lt;/li&gt;&lt;li&gt;&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="950" y="688" width="330" height="222" as="geometry" />
+        <mxCell id="t4J5OjTFXAHHgCRAhGgP-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Test Types&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;SSH will be used to check HELM deployments, if low level needed Kubernetes(We can keep a json files or YAML files with lists that can import dynamically for each Environment types.).&lt;/li&gt;&lt;li&gt;&amp;nbsp;Version check can be used to perform via dpkg or apt or both. Again YAML or JSON can be used to dynamically Import test cases.&lt;/li&gt;&lt;li&gt;REST point testing.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Auth0&lt;br&gt;&lt;/li&gt;&lt;li&gt;REFDATA&lt;/li&gt;&lt;li&gt;Matching engine etc&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;Here the API testing will be performed via API-Gateways. Will use already established methods or implement end points if needed that will deployed in the environment deployment phase. &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="660" width="510" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
