@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T18:27:27.833Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="zUgVCkXIXOYT-9cN2giO" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T19:03:45.062Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="6tiKPcJ-4JvcvjWwTmaT" version="24.6.4" type="github">
   <diagram name="Page-1" id="nr04e7j_lgrhqmW4x8mc">
-    <mxGraphModel dx="875" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -221,10 +221,22 @@
         <mxCell id="xMT419_eGAwAGplKJhdd-24" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontStyle=1;fontColor=#CC0000;fontSize=15;labelBackgroundColor=none;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="507.9985843411175" y="491.5251909100425" as="geometry" />
         </mxCell>
-        <mxCell id="iCfGl1xUMJOLYQ3UmWG8-1" value="&lt;b&gt;No&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontStyle=0;fontColor=#CC0000;fontSize=15;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
+        <mxCell id="iCfGl1xUMJOLYQ3UmWG8-1" value="&lt;b&gt;No&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontStyle=0;fontColor=#CC0000;fontSize=15;labelBackgroundColor=none;" parent="1" connectable="0" vertex="1">
           <mxGeometry x="567.9985843411175" y="288.49519091004254" as="geometry">
             <mxPoint x="149" y="-15" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="05g6nBb9AVxnTTn-7Teq-1" value="Initiate LoRa Radio&lt;br style=&quot;font-size: 14px;&quot;&gt;in Listening mode&lt;div style=&quot;font-size: 14px;&quot;&gt;using&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Preconfigured Parameters&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="939" width="170" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="05g6nBb9AVxnTTn-7Teq-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;strokeWidth=2;" edge="1" parent="1" source="05g6nBb9AVxnTTn-7Teq-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474.7533444816054" y="918" as="sourcePoint" />
+            <mxPoint x="474.75" y="939" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="05g6nBb9AVxnTTn-7Teq-3" value="Start" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontStyle=0;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="415" y="850" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
